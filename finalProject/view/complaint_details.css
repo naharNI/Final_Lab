@@ -1,0 +1,90 @@
+body {
+    font-family: Times New Roman;
+    background-color: #ccc;
+    margin: 0;
+    padding: 10px;
+}
+
+h3 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+fieldset {
+
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    width: 40%;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+select, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical; 
+}
+
+@media (max-width: 600px) {
+    fieldset {
+        width: 90%;
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+}
